@@ -46,7 +46,7 @@ df_goog = pd.DataFrame({
     "tweet":[i.text for i in tweets_goog],
 })
 
-# a user_defined function used to clean text
+# a user_defined function - using regular expression to clean text
 def process_tweets(t):
     import re
     
